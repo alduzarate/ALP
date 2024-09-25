@@ -2,8 +2,6 @@ import Parsing
 import Data.Char (digitToInt)
 import Control.Monad
 import Control.Applicative hiding (many)
-import Foreign.C (CFloat)
-import Language.Haskell.TH (Con)
 
 -- 1)
 -- La primitiva sepBy lo que hace es tomar 2 parsers y los va aplicando alternadamente, comenzando por el primero pasado
