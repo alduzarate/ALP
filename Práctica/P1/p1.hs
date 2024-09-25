@@ -298,3 +298,4 @@ constexpression :: Parser ConstantExpression
 constexpression = do  d <- digit
                       return (digitToInt d)
 
+-- TODO: anda todo menos arrays. int a; anda pero int a[10]; nop y no veo la falla
